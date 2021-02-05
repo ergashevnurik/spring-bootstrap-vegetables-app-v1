@@ -148,6 +148,35 @@
 
 
 
+    <!-- SubHero Section Goes Here -->
+    <section id="subHero">
+        <div class="container">
+            <div class="row outerRow">
+                <div class="col-md-4">
+                    <div class="row d-flex" style="flex-wrap: nowrap;">
+                        <i class="bi bi-box-seam" style="font-size: 30px; display: flex;justify-content: center;align-items: center;margin-right: 5px; margin-left: 5px;color: #ffc107"></i>
+                        <p style="display: flex;justify-content: center;align-items: center;">A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row d-flex" style="flex-wrap: nowrap;">
+                        <i class="bi bi-heart" style="font-size: 30px; display: flex;justify-content: center;align-items: center;margin-right: 5px; margin-left: 5px;color: #ffc107"></i>
+                        <p style="display: flex;justify-content: center;align-items: center;">A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row d-flex" style="flex-wrap: nowrap;">
+                        <i class="bi bi-cart4" style="font-size: 30px; display: flex;justify-content: center;align-items: center;margin-right: 5px; margin-left: 5px;color: #ffc107"></i>
+                        <p style="display: flex;justify-content: center;align-items: center;">A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SubHero Section Ends Here -->
+
+
+
     <!-- About Section Goes here -->
     <section id="about">
         <div class="container">
