@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar Container-fluid Styling Goes Here */
+.container-fluid {
+}
+
+.container-fluid .row p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid .row div a.btn {
+    width: 100%;
+}
+
+
+.container-fluid .row .social-icons  a {
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #ffc107;
+}
+/* Navbar Container-fluid Styling Goes Here */
+
+
+
+/* Navbar Styling Goes Here */
+nav {
+    background: #ffc107;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+}
+
+nav a.logo {
+    font-size: 24px;
+}
+/* Navbar Styling Goes Here */
+
+
+
+
+/* Hero Section Stylings Goes Here  */
+#hero {
+    width: 100%;
+}
+
+#hero .container-fluid {
+
+}
+
+#hero .container-fluid .row #demo {
+    width: 100%;
+}
+
+#hero .container-fluid .row #demo .carousel-inner {
+    position: relative;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item {
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 6rem;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Hero Section Styling Goes Here  */
+
+
+
+/* About Section Styling Goes Here */
+#about {
+
+}
+
+#about .container {
+    position: relative;
+    padding: 20px;
+}
+
+#about .container .right-segment {
+    position: absolute;
+    top: 50px;
+    left: -200px;
+    background: no-repeat;
+    background: url('https://stoev.ru/template/img/tomats.png');
+    width: 250px;
+    height: 400px;
+}
+
+#about .container .row .col-md-9 {
+
+}
+
+#about .container .row .col-md-9 .row .col-md-4 {
+
+}
+/* About Section Styling Ends Here */
+
+
+/* Services Section Styling Goes Here */
+#services {
+    width: 100%;
+}
+
+#services .container {
+    position: relative;
+    padding: 20px;
+}
+
+#services .container .right-segment {
+    position: absolute;
+    top: 50px;
+    right: -60px;
+    background: no-repeat;
+    background: url('https://stoev.ru/template/img/fruts-top-rt.png');
+    width: 250px;
+    height: 400px;
+}
+
+#services .container .content-header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#services .container .content-header ul {
+    list-style: none;
+    display: flex;
+}
+
+#services .container .content-header ul .header-text {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#services .container .content-header ul .line {
+    width: 150px;
+    height: 5px;
+    background: #ffc107;
+    margin: auto;
+}
+
+#services .container .row .col-md-6.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Services Section Styling Ends Here */
+
+
+
+
+
+
+
+/* Contacts Section Styling Goes here */
+#contacts {
+    width: 100%;
+}
+
+#contacts .container {
+    padding: 20px;
+}
+
+#contacts .container .content-header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contacts .container .content-header ul {
+    list-style: none;
+    display: flex;
+}
+
+#contacts .container .content-header ul .header-text {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#contacts .container .content-header ul .line {
+    width: 150px;
+    height: 5px;
+    background: #ffc107;
+    margin: auto;
+}
+
+#contacts .container .row .col-md-6.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts .container .row .col-md-6 form .form-group textarea {
+    width: 100%;
+    height: 250px;
+}
+
+#contacts .container .row .col-md-6 form .btn-warning {
+    width: 100%;
+}
+/* Contacts Section Styling Ends here */
+
+
+
+
+
+/* Footer Section Styling Goes Here */
+#footer {
+    width: 100%;
+}
+
+#footer .container {
+    color: white;
+    padding: 20px;
+}
+
+#footer .container .row .col-md-3 .footer-un-ordered-list {
+    list-style: none;
+}
+
+#footer .container .row .col-md-3 .footer-un-ordered-list .footer-list-item {
+
+}
+
+#footer .container .row .col-md-3 .footer-un-ordered-list .footer-list-item .footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer .container .row .social-icons  a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+/* Footer Section Styling Ends Here */
+
+
+
+
+/* Constants Variables Goes Here */
+p {
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+/* Constants Variables Goes Here */

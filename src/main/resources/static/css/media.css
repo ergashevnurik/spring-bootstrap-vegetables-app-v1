@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+    #services .container .right-segment, #about .container .right-segment {
+        display: none;
+    }
+
+    #services .container .content-header ul, #contacts .container .content-header ul {
+        display: block;
+    }
+
+    #services .container .content-header ul .line {
+        width: 100%;
+    }
+
+    #hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-caption h3 {
+        font-size: 2.5rem;
+
+    }
+}
