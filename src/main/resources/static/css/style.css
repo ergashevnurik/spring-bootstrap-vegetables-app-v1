@@ -48,6 +48,12 @@ nav a {
 nav a.logo {
     font-size: 24px;
 }
+
+nav .collapse .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 /* Navbar Styling Goes Here */
 
 
