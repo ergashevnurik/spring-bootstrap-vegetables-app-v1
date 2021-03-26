@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 
 /* Navbar Container-fluid Styling Goes Here */
 .container-fluid {
@@ -112,11 +117,7 @@ nav a.logo {
     padding: 5px;
 }
 
-#subHero .container .row.col-md-4 {
-    margin: 5px;
-}
-
-#subHero .container .row.col-md-4 .row.d-flex .bi {
+#subHero .container .row .col-md-4 .row.d-flex .bi {
     font-size: 30px!important;
 }
 /* SubHero Section Styling Ends Here */
@@ -166,7 +167,7 @@ nav a.logo {
 #services .container .right-segment {
     position: absolute;
     top: 50px;
-    right: -60px;
+    right: -200px;
     background: no-repeat;
     background: url('https://stoev.ru/template/img/fruts-top-rt.png');
     width: 250px;
